@@ -2869,6 +2869,11 @@ figcaption {
   line-height: 26px;
 }
 
+.spline-scene {
+  aspect-ratio: auto;
+  margin-top: 0;
+}
+
 @media screen and (max-width: 991px) {
   .styleguide-block {
     text-align: center;
@@ -3059,6 +3064,10 @@ figcaption {
     font-size: 36px;
     line-height: 54px;
   }
+
+  .spline-scene {
+    margin-top: 183px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3223,6 +3232,10 @@ figcaption {
   ._404-wrap {
     padding: 30px;
   }
+
+  .spline-scene {
+    margin-top: 185px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3281,6 +3294,21 @@ figcaption {
   .email-link {
     font-size: 30px;
     line-height: 46px;
+  }
+
+  .spline-scene {
+    grid-column-gap: 80px;
+    grid-row-gap: 80px;
+    aspect-ratio: 1;
+    object-fit: fill;
+    flex-flow: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 125%;
+    margin-top: 129px;
+    margin-left: -41px;
+    padding-right: 0;
+    display: block;
   }
 }
 
